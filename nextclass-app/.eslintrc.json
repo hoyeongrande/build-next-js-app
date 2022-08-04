@@ -4,5 +4,10 @@
     "airbnb",
     "airbnb-typescript",
     "airbnb-typescript/base"
-  ]
-}
+  ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  // "parser": "babel-eslint"
+} 
+
