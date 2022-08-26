@@ -12,7 +12,7 @@ export interface Lecture {
     id: number,
     category: Category,
     title: string,
-    tags: Tag,
+    tags: [Tag],
     description: string,
     thumb: string,
     isHot: boolean,

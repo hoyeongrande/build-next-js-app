@@ -2,7 +2,7 @@ import React from "react";
 import { Tag } from "../../interface/lecture";
 
 interface Props {
-    tagListData: [Tag]
+    tagListData: [Tag];
 }
 
 const TagList = ({ tagListData }:Props): JSX.Element => {
